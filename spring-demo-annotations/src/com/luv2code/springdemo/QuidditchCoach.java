@@ -23,7 +23,6 @@ public class QuidditchCoach implements Coach {
 	public QuidditchCoach(@Qualifier("databaseFortuneService") FortuneService theFortuneService) {
 		fortuneService = theFortuneService;
 	}
-	
 
 	@Override
 	public String getDailyWorkout() {
